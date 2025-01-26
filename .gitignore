@@ -1,0 +1,24 @@
+# Ignore environment variables file
+.env
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.log
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+
+# Ignore response files
+response.json
+temp.txt
+response.txt
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore other system files
+.DS_Store
+Thumbs.db
+response.json
