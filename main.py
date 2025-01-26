@@ -17,7 +17,14 @@ ARRAffinitySameSite = os.getenv("ARRAffinitySameSite")
 # Connexion
 yag = yagmail.SMTP(email, mdp)
 
-
+try:
+            yag.send(
+                to=receiver,
+                subject="RAS",
+                contents="RAS",
+            )
+except Exception as e:
+            print(f"Erreur : {e}")
 
 
 
